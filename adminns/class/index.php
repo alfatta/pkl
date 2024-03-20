@@ -1,0 +1,1 @@
+<?php if ( ! defined('SECRET_KEY')) exit('<pre>Error 404 : Page Not Found</pre>');?>

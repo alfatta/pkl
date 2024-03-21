@@ -3,13 +3,13 @@
 	// Definisi database
 	define('DB_HOST', 'localhost');
 	define('DB_USERNAME', 'root');
-	define('DB_PASSWORD', 'rahasia123');
+	define('DB_PASSWORD', 'root');
 	define('DB_NAME', 'pkl');
 
 	// Definisi umum
 	define('ADMIN_PATH', 'adminns');
 	define('ADMIN_URL', 'admin-page');
-	define('BASE_URL', 'http://localhost/pkls/');
+	define('BASE_URL', 'https://project.alft.dev/pkl/');
 
 	define('ERROR_REPORTING', 0); // tanpa error
 	// define('ERROR_REPORTING', 'E_ALL'); // menampilkan error

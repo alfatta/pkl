@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Website Edukasi Kementerian Lingkungan Hidup dan Kehutanan</title>
-	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 	.bg {
 		width: 100%;
@@ -172,15 +172,14 @@
 <?php }?>
 <script src="<?= BASE_URL ?>assets/js/jquery.min.js"></script>
 <script src="<?= BASE_URL ?>assets/js/jquery.rwdImageMaps.min.js"></script>
+<script src="<?= BASE_URL ?>assets/js/jquery.maphilight.min.js"></script>
 <script>
 	$(document).ready(function(e) {
 		if(window.innerHeight > window.innerWidth){
 		    alert("Mohon gunakan layar landscape!");
 		}
 		$('img[usemap]').rwdImageMaps();
-		$(function () {
-		    $('.map').maphilight();
-		});
+		$('img[usemap]').maphilight();
 	});
 	
 </script>

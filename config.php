@@ -1,7 +1,7 @@
 <?php if ( ! defined('SECRET_KEY')) exit('<pre>Error 404 : Page Not Found</pre>');
 
 	// Definisi database
-	define('DB_HOST', 'localhost');
+	define('DB_HOST', 'db');
 	define('DB_USERNAME', 'root');
 	define('DB_PASSWORD', 'root');
 	define('DB_NAME', 'pkl');

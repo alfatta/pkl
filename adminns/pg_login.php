@@ -19,10 +19,10 @@
     <meta name="description" content="Website Edukasi Kementerian Lingkungan Hidup dan Kehutanan">
     <meta name="author" content="Kementerian Lingkungan Hidup dan Kehutanan">
     <title>Website Edukasi Kementerian Lingkungan Hidup dan Kehutanan</title>
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
-    <link href="assets/css/sb-admin-2.css" rel="stylesheet">
-    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?= BASE_URL ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= BASE_URL ?>assets/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link href="<?= BASE_URL ?>assets/css/sb-admin-2.css" rel="stylesheet">
+    <link href="<?= BASE_URL ?>assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -58,9 +58,9 @@
             </div>
         </div>
     </div>
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendor/metisMenu/metisMenu.min.js"></script>
-    <script src="assets/js/sb-admin-2.js"></script>
+    <script src="<?= BASE_URL ?>assets/vendor/jquery/jquery.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/vendor/metisMenu/metisMenu.min.js"></script>
+    <script src="<?= BASE_URL ?>assets/js/sb-admin-2.js"></script>
 </body>
 </html>

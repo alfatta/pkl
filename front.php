@@ -170,8 +170,8 @@
 </div>
 
 <?php }?>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.rwdImageMaps.min.js"></script>
+<script src="<?= BASE_URL ?>assets/js/jquery.min.js"></script>
+<script src="<?= BASE_URL ?>assets/js/jquery.rwdImageMaps.min.js"></script>
 <script>
 	$(document).ready(function(e) {
 		if(window.innerHeight > window.innerWidth){
